@@ -65,7 +65,7 @@ rl.question('\nHow much do you owe on your mortgage currently(USD): ', (answer) 
           payment = answer;
         }
 
-        console.log(calculateTermCost(1));
+        console.log(calculateTermCost(15));
         console.log(calculateTermCost(30));
         console.log(calculatePayoffTime());
       });
